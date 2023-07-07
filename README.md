@@ -1,2 +1,2 @@
-# CPSC-421
-나의 노트
+# Fundamental concepts of computation and the limits of what can be computed.
+
