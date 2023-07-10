@@ -5,3 +5,17 @@
 
 # 튜링 머신에서의 언어의 뜻
 * 튜링머신에서 accept state로 가게 하는 input 문자열 $\sum $의 집합을 튜링 머신의 언어라고 한다.
+
+
+# 증명 방법
+## Direct proofs
+
+## Indirect proofs by contrapositive
+
+## Indirect proofs by contradiction
+
+## Proofs by weak mathematical induction
+
+## Proofs by strong mathematical induction
+
+## Proofs of algorithm correctness
