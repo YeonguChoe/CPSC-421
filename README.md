@@ -2,43 +2,32 @@
 
 
 ## 튜링 머신
-# 튜링 머신에서의 언어의 뜻
-* 튜링머신에서 accept state로 가게 하는 input 문자열 $\sum $의 집합을 튜링 머신의 언어라고 한다.
+
+## language of descriptions of a sequence: 1.1~1.3 단원
+### language of strings: 9.3 단원
+
+## NFA recognizing language: 1.2단원
+
+## DFA recognizing language: 1.2단원
+### GNFA: 1.3 단원
 
 
-## Countable Set의 뜻
-* 집합은 element의 갯수가 유한(finite)적이거나, 자연수와 1:1 대응이 되면 Countable 집합이다.
-* 즉, 집합에 있는 각 element들이 특정 자연수로 대응을 시키는 injective 함수가 존재 하는 경우를 말한다.
-* 무한 집합이라고 하더라도, 자연수로 1:1 대응이 되는 injective 함수가 존재하면 Countable set이다.
+## Myhill-Nerode theorem: 1단원
 
-
-
-## language of descriptions of a sequence
-### language of strings
-
-## NFA recognizing language
-
-## DFA recognizing language
-### GNFA
-
-
-
+## Pumping Lemma for CFG: 1.4단원
+---
 
 ## NP-completeness
 
 ### Known NP-complete
-#### SUBSET-SUM
+#### SUBSET-SUM: 7단원
 #### PARTITION
 
-## PSPACE-complete language
-### PSPACE
+## PSPACE-complete language: 8.3단원
+### PSPACE: 8.2단원
 
-## 3CNF formula
+## 3CNF formula: 7단원
 
-## Savitch’s theorem
+## Savitch’s theorem: 8.1단원
 
-## Halting Problem for Turing machines
-
-## Myhill-Nerode theorem
-
-## Pumping Lemma for CFG
+## Halting Problem for Turing machines: 5.1단원
