@@ -10,7 +10,7 @@
 
 ## DFA recognizing language: 1.2단원
 ### GNFA: 1.3 단원
-
+하하하
 
 ## Myhill-Nerode theorem: 1단원
 
