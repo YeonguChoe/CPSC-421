@@ -6,13 +6,13 @@
 |$w$|1011101, $w_1w_2w_3w_4w_5$|string made of a sequence input symbols|
 |$\epsilon$|n/a|empty string|
 |$\Sigma$|$\{0,1\}$|finite set of alphabets(types of symbols)|
-|$L(M)$|n/a|* If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
+|$L(M)$|n/a|If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
+|$\emptyset$|$L(M)={}=\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
 
 
+* $M\ recognizes\ A$ 뜻: string을 따라 갔을때, accept state에서 끝난다.
 
-* $L(M)$: language of machine
-    * string을 automaton에서 작동시켰을때 accept state에서 끝나는 string
-    * $M\ recognizes\ A$ 뜻: string을 따라 갔을때, accept state에서 끝난다.
+
 * $\empty$: empty language
     * 어떤 string도 accept하지 않는 경우, language of machine은 공집합이다.
     * 예: $L(M)=\empty=\{\}$
