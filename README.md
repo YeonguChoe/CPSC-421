@@ -44,4 +44,7 @@
 
 ![Nondeterministic transition function](./image/Nondeterministic%20transition%20function.png)
 * $P(Q)$는 state 집합인 Q의 subset 이다. 왜냐하면, 같은 string으로 다른 end state이 나올수 있기 때문이다.
+    * 예를 들어, $Q=\lbrace q_{1},q_{2},q_{3},q_{4},q_{5} \rbrace $라면, $P(Q)=\{q_{1},q_{3},q_{5}\}$가 가능하다.
 * $\Sigma_{\varepsilon}$은 모든 input symbol의 종류(alphabet)인 $\Sigma$와 empty input인 $\varepsilon$의 합집합이다.
+
+## Regular language
