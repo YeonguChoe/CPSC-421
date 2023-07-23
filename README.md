@@ -12,6 +12,7 @@
 
 * $M\ recognizes\ A$ 뜻: string을 따라 갔을때, accept state에서 끝난다.
 
+$\( A = \{a, b, c\} \)$
 
 * $\empty$: empty language
     * 어떤 string도 accept하지 않는 경우, language of machine은 공집합이다.
