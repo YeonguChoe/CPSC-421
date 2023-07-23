@@ -18,8 +18,8 @@
 |$\Sigma$|$\{0,1\}$|alphabets: a set of distinct types of symbols|
 |$L(M)$|$\lbrace w \|M\ accepts\ w \rbrace$|Language of $M$: If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
 |$\emptyset$|$L(M)=\lbrace \rbrace =\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
-|$Q$|$\lbrace q_1,q_2,q_3\rbrace$|set of possible states|
-|$\delta(q,a)$|$\delta:Q\times \Sigma\rightarrow Q$|Transition function: $q$: current state, $a$: symbol in a string|
+|$Q$|$\lbrace q_1,q_2,q_3\rbrace$|Finite set of states|
+|$\delta(q,a)$|![Transition function](./image/Transition-function.png)|Transition function: $q$: current state, $a$: symbol in a string|
 |$F$|$\lbrace q_4,q_{21} \rbrace$|set of accept states|
 
 * $M\ recognizes\ A$ 뜻: Automaton에서 string을 따라 갔을때, accept state에서 끝난다.
