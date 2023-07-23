@@ -1,11 +1,15 @@
-# 기본 약어
-* $w_i$: input symbol
-    * 예: 1
-* $w$: string(input symbol로 만들어진 문자열)
-    * 예: 1011101, $w_1w_2w_3w_4w_5$
-* $\epsilon$: empty string
-* $\Sigma$: finite set of alphabets(input symbol의 종류)
-    * 예: $\{0,1\}$
+# Theory of Computing
+## 기본 약어
+|표기 방법|예시|의미|
+|-------|---|---|
+|$w_i$|1|input symbol|
+|$w$|1011101, $w_1w_2w_3w_4w_5$|string made of a sequence input symbols|
+|$\epsilon$|n/a|empty string|
+|$\Sigma$|$\{0,1\}$|finite set of alphabets(types of symbols)|
+|$L(M)$|n/a|* If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
+
+
+
 * $L(M)$: language of machine
     * string을 automaton에서 작동시켰을때 accept state에서 끝나는 string
     * $M\ recognizes\ A$ 뜻: string을 따라 갔을때, accept state에서 끝난다.
@@ -22,5 +26,5 @@
 * $F$: set of accept states
     * $\{q_4,q_{13}\}$
 
-# 오토마톤
+## Automaton
 * 어원적으로 "a self-acting machine"이라는 뜻이다.
