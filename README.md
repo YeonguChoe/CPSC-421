@@ -7,7 +7,7 @@
 |$\epsilon$|n/a|empty string|
 |$\Sigma$|$\{0,1\}$|finite set of alphabets(types of symbols)|
 |$L(M)$|n/a|If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
-|$\emptyset$|$L(M)=\bigl \{ \bigr \} =\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
+|$\emptyset$|$L(M)=\lbrace \rbrace =\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
 
 
 * $M\ recognizes\ A$ 뜻: string을 따라 갔을때, accept state에서 끝난다.
