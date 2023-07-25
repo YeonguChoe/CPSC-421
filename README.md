@@ -1,14 +1,14 @@
 # Theory of Computing
 ## Deterministic Finite Automaton(DFA) $M$
 ![Finite automaton](./image/Finite%20automaton.png)
-* Finite automaton은 $(Q,\Sigma,\delta,q_0,F)$인 5 tuple이다.
-* 어원적으로 "a self-acting machine"이라는 뜻이다.
-* Automaton은 singular이고 Automata는 plural이다.
+* Finite automaton is $(Q,\Sigma,\delta,q_0,F)$ 5 tuple.
+* Etymologically, it means "a self-acting machine"
+* Automaton is singular and Automata is plural form of automaton.
 
 ## Terminology of automaton
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
 
-|표기 방법|예시|의미|
+|Notation|Example|Meaning|
 |-------|---|---|
 |$q_n$|$q_1,q_2,q_3...$|state|
 |$q_0$|$q_0$|start state|
@@ -22,15 +22,15 @@
 |$\delta(q,a)$|$\delta:Q\times \Sigma \rightarrow Q$|Transition function: $q$: current state, $a$: symbol in a string|
 |$F$|$\lbrace q_4,q_{21} \rbrace$|set of accept states|
 
-* $M\ recognizes\ A$ 뜻: Automaton에서 string을 따라 갔을때, accept state에서 끝난다.
+* $M\ recognizes\ A$: When following the string in an automaton, it ends at accept state.
 
-### Transition function의 예
+### Transition function example
 ![Transition function](./image/Transition%20function.png)
 
 ## Regular operation
 ![Regular operation of automaton](./image/Regular%20operation%20of%20automaton.png)
 
-|표기법|이름|하는 일|
+|Notation|Name|What it does|
 |----|---|-----|
 |$\cup$|union|2개의 set을 합친다.|
 |$∘$|concatenation|2개의 set에 있는 element들을 모든 경우의 수를 고려해서 붙인다. 연산에 순서가 있다. $A∘B \neq B∘A$|
