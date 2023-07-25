@@ -8,7 +8,7 @@
 ## Terminology of automaton
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
 
-|Notation|Example|Meaning|
+|표기 방법|예시|의미|
 |-------|---|---|
 |$q_n$|$q_1,q_2,q_3...$|state|
 |$q_0$|$q_0$|start state|
