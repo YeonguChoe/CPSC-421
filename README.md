@@ -65,26 +65,28 @@
 * In GNFA, we allows regular expressions as a transition function
 
 ## Pumping Lemma
-* method for proving the language is non-regular
+### Statement
+* If a language is regular, every string in the language have a section that can be repeated any number of times and still within the language.
+* All strings in the language can be repeated if that string is as long as the pumping length $p$.
 
-### Formally
-$$
-If\ a\ language\ is\ regular,\ every\ string\ in\ the\ languag\ have\ a\ section\ that\ can\ be\ repeated\ any\ number\ of\ times.
-$$
-
-
+### Usage
+method for proving the language is non-regular
 
 ## Context Free Grammars (CFGs)
+
+
+## Context Free Language
 
 ## Pushdown Automata (PDA)
 
 ## Turing machines (TMs)
 
----
 
 ## Multi-tape Turing machine
 
 ## Nondeterministic Turing machine
+
+================여기까지 정리 하기===================
 
 ## Quantified Boolean Formula(QBF)
 
