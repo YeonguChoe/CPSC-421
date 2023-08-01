@@ -11,7 +11,7 @@
 |$w$|1011101, $w_1w_2w_3w_4w_5$|string: a sequence input symbols|
 |$\varepsilon$|""|empty string: string of length 0|
 |$\Sigma$|$\{0,1\}$|alphabets: a set of distinct types of input symbols|
-|$L(M)$|$\lbrace w \|M\ accepts\ w \rbrace, \lbrace01101,11001,110\rbrace $|Language of $M$: Language is a set of strings that ends at accept state when we run on a automaton|
+|$L(M)$|$\lbrace w \|M\ accepts\ w \rbrace, \lbrace01101,11001,110\rbrace $|Language of $M$: Language is a set of strings that ends at accept state when we run on a automaton.;Also use expression: $M\ recognizes\ L(M)$.|
 |Regular language|a|a|
 |Non-regular langague|b|b|
 |$\emptyset$|$L(M)=\lbrace \rbrace =\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
