@@ -1,9 +1,4 @@
 # Theory of Computing
-## Deterministic Finite Automaton(DFA) $M$
-![Finite automaton](./image/Finite%20automaton.png)
-* Finite automaton is $(Q,\Sigma,\delta,q_0,F)$ 5 tuple.
-* Etymologically, it means "a self-acting machine"
-* Automaton is singular and Automata is plural form of automaton.
 
 ## Terminology of automaton
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
@@ -17,6 +12,8 @@
 |$\varepsilon$|""|empty string: string of length 0|
 |$\Sigma$|$\{0,1\}$|alphabets: a set of distinct types of symbols|
 |$L(M)$|$\lbrace w \|M\ accepts\ w \rbrace$|Language of $M$: If string ends at accept state when we run the string at the automaton, we call the string is in language of machine.|
+|Regular language|a|a|
+|Non-regular langague|b|b|
 |$\emptyset$|$L(M)=\lbrace \rbrace =\emptyset$|Empty language: If the automaton doesn't accept any string, the language of machine is empty set|
 |$Q$|$\lbrace q_1,q_2,q_3\rbrace$|set of states|
 |$\delta(q,a)$|$\delta:Q\times \Sigma \rightarrow Q$|Transition function: $q$: current state, $a$: symbol in a string|
@@ -34,9 +31,16 @@
 |----|---|-----|
 |$\cup$|union|2개의 set을 합친다.|
 |$∘$|concatenation|2개의 set에 있는 element들을 모든 경우의 수를 고려해서 붙인다. 연산에 순서가 있다. $A∘B \neq B∘A$|
-|$^*$|star operation|set에 있는 element들로 만들수 있는 모든 string의 set|
+|$^*$|star operation|generate the set of all possible combinations of elements in original set, including the empty set|
 
-## Nondetermistic Finite Automaton (NFA) $N$
+
+## Deterministic Finite Automaton(DFA)
+![Finite automaton](./image/Finite%20automaton.png)
+* Finite automaton is $(Q,\Sigma,\delta,q_0,F)$ 5 tuple.
+* Etymologically, it means "a self-acting machine"
+* Automaton is singular and Automata is plural form of automaton.
+
+## Nondetermistic Finite Automaton (NFA)
 ![Nondetermistic Automaton](./image/Nondetermistic%20Automaton.png)
 * 1개의 state에서 같은 input symbol에 대한 transition function이 여러개 있는 Automaton을 nondetermistc automaton이라고 한다.
 * $\varepsilon-transition$: input symbol을 읽지 않고도 다른 state로 이동 할 수 있는 transition function이 존재 한다.
@@ -47,4 +51,38 @@
     * 예를 들어, $Q=\lbrace q_{1},q_{2},q_{3},q_{4},q_{5} \rbrace $라면, $P(Q)=\{q_{1},q_{3},q_{5}\}$가 가능하다.
 * $\Sigma_{\varepsilon}$은 모든 input symbol의 종류(alphabet)인 $\Sigma$와 empty input인 $\varepsilon$의 합집합이다.
 
-## Regular language
+## Generalized Nondeterministic Finite Automaton (GNFA)
+
+
+
+## Pumping Lemma
+
+
+
+## Context Free Grammars (CFGs)
+
+## Pushdown Automata (PDA)
+
+## Turing machines (TMs)
+
+## Multi-tape Turing machine
+
+## Nondeterministic Turing machine
+
+## Quantified Boolean Formula(QBF)
+
+## Cook-Levin Theorem
+
+## Space compexity (In depth needed)
+* PSPACE
+
+
+
+
+# L vs NL problem (Like P vs NP)
+## Logarithmic space
+
+
+## NL
+
+## coNL
