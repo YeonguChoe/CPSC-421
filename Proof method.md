@@ -1,12 +1,17 @@
-# Proof methods
-## Direct proofs
+# Proof method
 
-## Indirect proofs by contrapositive
+## Proof by construction
 
-## Indirect proofs by contradiction
+## Direct proof
 
-## Proofs by weak mathematical induction
+## Indirect proof by contrapositive
 
-## Proofs by strong mathematical induction
+## Indirect proof by contradiction
 
-## Proofs of algorithm correctness
+## Indirect proof by weak mathematical induction
+
+## Indirect proof by strong mathematical induction
+
+## Loop invariant
+
+## Counterexample proof
