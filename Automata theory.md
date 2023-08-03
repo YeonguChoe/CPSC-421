@@ -40,6 +40,9 @@
 * Language that has more pattern for accepted strings
 * Example: $\lbrace a^{N}b^{N}|N\ is\ a\ number\rbrace, \lbrace ababb, ababbababb, ababbababbababb ... \rbrace$
 
+
+
+
 ## Types of automaton
 1. DFA
 1. NFA
@@ -62,7 +65,12 @@
 * Accept string if <u>at least</u> one path ends at accept state
 
 ## Generalized Nondeterministic Finite Automaton (GNFA)
-* In GNFA, we allows regular expressions as a transition function
+* In GNFA, we allows regular expressions as a transition function.
+
+
+
+
+
 
 ## Pumping Lemma
 ### Statement
