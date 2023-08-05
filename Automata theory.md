@@ -154,6 +154,7 @@ If $A$ is a language of NFA, then A is regular language.
 ![Atomic regex](/image/Atomic%20regex.png)
 
 * If the regular expression is a composite of states
+
 ![Composite regex](/image/Composite%20regex.png)
 
 # Converting from regular expression to DFA
