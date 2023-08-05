@@ -37,3 +37,7 @@ If $A_{1},A_{2}$ are two regular languages, then $A_{1}\circ A_{2}$ is also regu
 ## Theorem: $\star$
 If $A$ is a regular languages, then $A^{\star}$ is also a regular language.
 
+### Proof
+1. Create a new NFA, which connects $\varepsilon$-transition from accept states to start state of previous machine. Then, if a state goes to accept state when following string, it starts over at the automaton.
+
+![Proof for star](/image/Proof%20for%20star.png)
