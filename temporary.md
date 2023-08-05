@@ -31,5 +31,23 @@ If $A$ is a language of NFA, then A is regular language.
 # Converting from regular expression to DFA
 * Combining (from regular expression to NFA) and (from NFA to DFA), we can get conversion from regular expression to DFA
 
-# Converting from DFA to regular expression
+# Converting from GNFA to regular expression
 
+## Lemma
+An GNFA machine always has an equivalent regular expression
+
+### Proof by induction
+1. Let $k$ is the number of states in GNFA machine
+1. Basic step ($k=2$)
+    * create GNFA machine
+    ![basic step](/image/from%20GNFA%20to%20regex.png)
+    * let the regular expression of the GNFA machine be $R$
+1. Inductive step ($k>2$)
+    * Assume the Lemma is true for $k-1$ and prove for $k$ states, converting $k$ state GNFA to $k-1$ state GNFA
+        1. Given $k$ state GNFA, remove a state which is not the start state and accept state
+        1. add a label for transition to repair the damage by recovering all path that went through removed state
+        ![From GNFA to regex](/image/from%20GNFA%20to%20regex2.png)
+
+# Converting from DFA to regular expression
+1. DFA is a type of GNFA $\left( DFA\subset GNFA \subset NFA \right)$. Therefore, all the DFA is a GNFA.
+1. Convert from GNFA to regular expression
