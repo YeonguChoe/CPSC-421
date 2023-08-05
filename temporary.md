@@ -12,6 +12,7 @@ $$
 Q_{new}=Q_{1}\times Q_{2}=\lbrace (q_{1},q_{2})|q_{1} \in Q_{1}\ and\ q_{2} \in Q_{2} \rbrace \newline
 q_{0}=(q_{1},q_{2}) \newline
 $$
+
 3. Make translation for each tuple state and input
 
 $$
