@@ -2,6 +2,10 @@
 * Cartesian product takes two sets and produce a new set that contains all possible ordered pairs of elements.
 * $A\times B=\lbrace(a,b)|a \in A\ and\ b \in B \rbrace$
 
+# Power set $\mathcal{P}$
+* Power set of a set $S$ is a set of all subsets of $S$.
+* $\mathcal{P}(S)=\lbrace x | x \subseteq S \rbrace$
+
 # Terminology of automaton
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
 
