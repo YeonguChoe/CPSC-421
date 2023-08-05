@@ -15,6 +15,6 @@
     * we can describe complex patterns with compact and easy syntax.
     * if a language can be written in regular expression, then it is a regular language.
 * Example
-    * all strings over $\Sigma=\{0,1\}$ that contains 1: ${(0\cup1)}^{*}1{(0\cup1)}^{*}$
-    * all strings having exactly two 1s: $0^{*}10^{*}1$
-    * all strings that are even length: $((0\cup1)(0\cup1))^{*}$
+    * all strings over $\Sigma=\{0,1\}$ that contains 1: ${(0\cup1)}^{\star}1{(0\cup1)}^{\star}$
+    * all strings having exactly two 1s: $0^{\star}10^{\star}1$
+    * all strings that are even length: $((0\cup1)(0\cup1))^{\star}$
