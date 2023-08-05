@@ -29,7 +29,8 @@ If $A_{1},A_{2}$ are two regular languages, then $A_{1}\circ A_{2}$ is also regu
 
 ### Proof
 1. create a new NFA, which connect $\varepsilon$-transitions from accept state of the first automaton to the start state of the second automaton
-![Proof for concatenation](/image/proof%20for%20concatenation.png)
+
+![Proof for concatenation](/image/Proof%20for%20concatenation.png)
 
 
 ## Theorem: $\star$
