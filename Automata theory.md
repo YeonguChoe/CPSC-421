@@ -24,14 +24,7 @@
 
 
 ## Regular language
-### Regular expresion
-![Regular operation of automaton](./image/Regular%20operation%20of%20automaton.png)
 
-|Notation|Name|What it does|
-|----|---|-----|
-|$\cup$|union|Combining two languages(set of strings) to create one new language|
-|$∘$|concatenation|Concatenate strings from the first language to second language. Order does matter: $A∘B \neq B∘A$|
-|$^*$|star operation|generate the set of all possible combinations of elements in original set, including the empty set|
 
 ### Regular language
 * Language that is recognized by <u>at least one</u> finite automaton(DFA or NFA) is called regular language
@@ -40,15 +33,6 @@
 * Language that has more pattern for accepted strings
 * Example: $\lbrace a^{N}b^{N}|N\ is\ a\ number\rbrace, \lbrace ababb, ababbababb, ababbababbababb ... \rbrace$
 
-
-
-
-## Types of automaton
-1. DFA
-1. NFA
-1. GNFA
-1. PDA
-1. Turing machine
 
 ## Deterministic Finite Automaton(DFA)
 ![Finite automaton](./image/Finite%20automaton.png)
@@ -67,25 +51,3 @@
 ## Generalized Nondeterministic Finite Automaton (GNFA)
 * In GNFA, we allows regular expressions as a transition function.
 
-
-
-
-
-
-## Pumping Lemma
-### Statement
-* If a language is regular, every string in the language have a section that can be repeated any number of times and still within the language.
-* All strings in the language can be repeated if that string is as long as the pumping length $p$.
-
-### Usage
-method for proving the language is non-regular
-
-
-# Context free languages
-## Context Free Grammars (CFGs)
-
-
-## Context Free Language
-
-
-## Pushdown Automata (PDA)

@@ -1,4 +1,4 @@
-# Proof method
+# Proof method by Yeongu
 
 ## Proof by construction
 
