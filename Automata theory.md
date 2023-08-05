@@ -120,7 +120,7 @@ If $A$ is a regular languages, then $A^{\star}$ is also a regular language.
 * Power set $\mathcal{P}(Q)$ means it is a subset of states.
 
 # Generalized Nondeterministic Finite Automaton (GNFA)
-![Gneralized nondeterministic finite automata](/image/Generalized%20NFA.png)
+![Generalized nondeterministic finite automata](/image/Generalized%20NFA.png)
 * In GNFA, we allows regular expressions as a transition function.
 * GNFA transition can read the chunk of string at once.
 * GNFA transition can recognize more complex pattern than NFA.
