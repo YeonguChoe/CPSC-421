@@ -183,3 +183,4 @@ An GNFA machine always has an equivalent regular expression
 # Converting from DFA to regular expression
 1. DFA is a type of GNFA $\left( DFA\subset GNFA \subset NFA \right)$. Therefore, all the DFA is a GNFA.
 1. Convert from GNFA to regular expression
+
