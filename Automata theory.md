@@ -167,7 +167,7 @@ An GNFA machine always has an equivalent regular expression
 1. Let $k$ is the number of states in GNFA machine
 1. Basic step ($k=2$)
     * create GNFA machine
-    ![basic step](/image/from%20GNFA%20to%20regex.png)
+    ![basic step](/image/from%20GNFA%20to%20regex1.png)
     * let the regular expression of the GNFA machine be $R$
 1. Inductive step ($k>2$)
     * Assume the Lemma is true for $k-1$ and prove for $k$ states, converting $k$ state GNFA to $k-1$ state GNFA
