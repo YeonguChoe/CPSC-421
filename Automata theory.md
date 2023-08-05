@@ -1,6 +1,4 @@
-# Regular language
-
-## Terminology of automaton
+# Terminology of automaton
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
 
 |Notation|Example|Meaning|
@@ -19,35 +17,18 @@
 
 * $M\ recognizes\ A$: When following the string in an automaton, it ends at accept state.
 
-### Transition function example
+## Transition function example
 ![Transition function](./image/Transition%20function.png)
 
 
-## Regular language
-
-
-### Regular language
+# Regular language
 * Language that is recognized by <u>at least one</u> finite automaton(DFA or NFA) is called regular language
 
-### Non-regular language
+# Non-regular language
 * Language that has more pattern for accepted strings
 * Example: $\lbrace a^{N}b^{N}|N\ is\ a\ number\rbrace, \lbrace ababb, ababbababb, ababbababbababb ... \rbrace$
 
 
-## Deterministic Finite Automaton(DFA)
-![Finite automaton](./image/Finite%20automaton.png)
-* Finite automaton is $(Q,\Sigma,\delta,q_0,F)$ 5 tuple.
-* Etymologically, it means "a self-acting machine"
-* Automaton is singular and Automata is plural form of automaton.
 
 
-## Nondetermistic Finite Automaton (NFA)
-![NFA](./image/NFA.png)
-
-### Nondeterminism
-* $\varepsilon$-transition: free movement without reading input symbol
-* Accept string if <u>at least</u> one path ends at accept state
-
-## Generalized Nondeterministic Finite Automaton (GNFA)
-* In GNFA, we allows regular expressions as a transition function.
 
