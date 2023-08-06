@@ -1,7 +1,8 @@
 # Context free grammar
 * CFG is a computation model that can do more things than finite automaton.
 
-# Terminology of Context free grammar
+# Terminology of context free grammar
+A context free grammar is a 4-tuple $\left(V,\Sigma,R,S\right)$
 
 |Notation|Example|Meaning|
 |--------|-------|-------|

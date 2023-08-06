@@ -7,6 +7,8 @@
 * $\mathcal{P}(S)=\lbrace x | x \subseteq S \rbrace$
 
 # Terminology of automaton
+A finite automaton is a 5-tuple $\left(Q,\Sigma,\delta,q_{0},F\right)$
+
 ![Terminology of automata](./image/Terminology%20of%20automata.png)
 
 |Notation|Example|Meaning|
