@@ -335,3 +335,10 @@ $$
     * Any CFG can be converted to PDA and vice versa.
 
 # Inclusion relationship
+* Regular expression is the proper subset of context free language.
+
+$$
+Regular\ Expression\subset Context\ Free\ Language
+$$
+
+![Inclusive relationship](/image/Inclusive%20relationship.png)
