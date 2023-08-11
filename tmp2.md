@@ -1,7 +1,9 @@
 # Pushdown automaton(PDA)
+* Pushdown automaton is $(Q,\Sigma,\Gamma,\delta,q_{0},F)$ 6 tuple.
+* accept string if some thread is in accept state after reading all the input symbols in the string
 ## Stack operations
-* push: write on the top of stack and push every element down
-* pop: read the top element of the stack and remove that element
+* push: write at the top of stack and push every alphabet down
+* pop: read an alphabet located at the top of the stack and remove that alphabet
 
 ## Schematic diagram
 ![Pushdown automaton](/image/Pushdown%20automaton.png)
@@ -18,8 +20,24 @@ $$
 
 * Condition to take transition
     * head is pointing at the input symbol $a$ **and**
-    * we can pop $b$ from stack
+    * we can pop stack symbol $b$ from stack
 * Result of transition
-    * move head to next input symbol
-    * pop $b$ from stack
-    * push $c$ at the top of the stack
+    1. move head to next input symbol
+    2. pop stack symbol $b$ from stack
+    3. push $c$ at the top of the stack
+
+## Formal definition of PDA
+![PDA formal definition](/image/PDA%20formal%20definition.png)
+
+ $$
+ \underset{\text{current state}}{Q}\times \underset{\text{input symbol}}{\Sigma_{\varepsilon}}\times \underset{\text{stack symbol at the top of stack}}{\Gamma{\varepsilon}}\rightarrow \underset{\text{new state, new stack symbol at the top}}{\mathcal{P}(Q\times \Gamma_{\varepsilon})}
+ $$
+
+|Notation|Example|Meaning|
+|-------|---|---|
+|$\Sigma$|a|input alphabet|
+|$\Gamma$|b|stack alphabet|
+|$\delta(q,a,c)$|$\delta(q,a,c)=\lbrace(q_{1},d),(q_{2},e)\rbrace$|Transition function: $q$: current state, $a$: input symbol in a string $c$: stack symbol at the top of stack; example $(q_{1},d)$: go to state $q_{1}$ and push $d$ at the top of stack|
+|$\Gamma_{\varepsilon}$||don't do any operation(read/write) on stack|
+ 
+
