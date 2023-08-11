@@ -56,6 +56,7 @@ $$
 ![change of stack](/image/Stack%20of%20PDA.png)
 3. If the stack becomes empty after 1 and 2, then accept the string.
 
+# Equivalence of CFG and PDA
 ## Theorem
 * Context free grammar is equivalent with pushdown automaton.
     * Any CFG can be converted to PDA and vice versa.
