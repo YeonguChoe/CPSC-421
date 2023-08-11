@@ -269,3 +269,4 @@ A context free grammar is a 4-tuple $\left(V,\Sigma,R,S\right)$
     * Therefore, the string is ambiguous.
 
 ![Ambiguity](/image/Ambiguity.png)
+
