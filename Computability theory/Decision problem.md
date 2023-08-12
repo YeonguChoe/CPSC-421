@@ -35,3 +35,46 @@ D_{A_{DFA}}=&\text{On input string } s\\
 $$
 
 ![Decider for A_DFA](/image/Decider%20for%20A_DFA.png)
+
+# Acceptance problem for Nondeterministic finite automata
+
+$$
+\text{Let the language } A_{NFA}=\lbrace \underset{\text{}}{\langle B, w \rangle}|\text{B is a Nondeterministic finite automaton that accepts w} \rbrace
+$$
+
+## Theorem
+* $A_{NFA}$ is decidable.
+* There is a turing machine that accept and halt for language $A_{NFA}$, and reject and halt for strings that are not inside $A_{NFA}$
+### Proof: There is a turing machine $D_{A_{NFA}}$ which is a decider for the language $A_{NFA}$
+
+1. Turing machine(Decider)
+
+$$
+\begin{align}
+D_{A_{NFA}}=&\text{On input string } s\\
+&\text{1. Convert NFA B into equivalent DFA } B'\\
+&\text{2. Run turing machine } D_{A_{DFA}} \text{on input  }\langle B',w \rangle\\
+&\text{3. Accept if } D_{A_{DFA}} \text{ accepts.; otherwise reject.}
+\end{align}
+$$
+
+# Acceptance problem for Turing machine
+* Let $A_{TM}=\lbrace \langle M,w \rangle|M \text{ is a Turing Machine and } M \text{ accepts input string } w \rbrace$
+* Given a turing machine $M$, the turing machine accepts input string $w$.
+
+## Theorem 1: $A_{TM}$ is not a decidable language.
+
+
+## Theorem 2: $A_{TM}$ is a Turing-recognizable language.
+### Proof: The following TM $U$ recognizes $A_{TM}$
+
+$$
+\begin{align}
+U=&\text{``On input } \langle M,w \rangle \\
+&\text{1. Simulate }M \text{on input }w\\
+&\text{2. Accept if }M \text{ halts and accepts}\\
+&\text{3. Reject if }M \text{ halts and rejects"}\\
+\end{align}
+$$
+
+![Universal turing machine](/image/Universal%20turing%20machine.png)
