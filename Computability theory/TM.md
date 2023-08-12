@@ -118,6 +118,3 @@ $$
 * Given $O$ which an object(Example: automaton, graph ...), $<O>$ is an encoding of the object into a string.
 * For a string that contains multiple objects, we write $<O_{1},O_{2},...>$
 
-
-
-
