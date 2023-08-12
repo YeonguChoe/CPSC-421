@@ -335,6 +335,7 @@ $$
     * Any CFG can be converted to PDA and vice versa.
 
 # Inclusion relationship
+* DFA, NFA is just Pushdown automaton without stack, so anything you can do with DFA and NFA can be done with PDA.
 * Regular expression is the proper subset of context free language.
 
 $$
@@ -342,3 +343,11 @@ Regular\ Language\subset Context\ Free\ Language
 $$
 
 ![Inclusive relationship](/image/Inclusive%20relationship.png)
+
+# Recognizer and generator
+
+|Language type|Recognizer|Generator|
+|--|--------|---------|
+|Regular language|DFA or NFA|Regular expression|
+|Context free grammar|PDA|Context free grammer|
+
