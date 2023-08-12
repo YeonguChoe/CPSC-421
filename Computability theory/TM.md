@@ -115,6 +115,6 @@ $$
 * Algorithm and Turing machine is the same thing.
 
 # Encoding objects into a string
-* Given $O$ which an object(Example: automaton, graph ...), $<O>$ is an encoding of the object into a string.
-* For a string that contains multiple objects, we write $<O_{1},O_{2},...>$
+* Given $O$ which an object(Example: automaton, graph ...), $\langle O \rangle$ is an encoding of the object into a string.
+* For a string that contains multiple objects, we write $\langle O_{1},O_{2},... \rangle$
 
