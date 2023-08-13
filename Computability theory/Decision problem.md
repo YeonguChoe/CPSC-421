@@ -12,7 +12,10 @@ M=``&\text{On input } w\\
 \end{align}
 $$
 
-# Acceptance problem for Deterministic finite automata
+# Acceptance problem
+* A set of strings that contain information about machine $M$, which takes input symbol $w$
+
+# $A_{DFA}$
 
 $$
 \text{Let the language } A_{DFA}=\lbrace \underset{\text{}}{\langle B, w \rangle}|\text{B is a Deterministic finite automaton that accepts w} \rbrace
@@ -36,7 +39,7 @@ $$
 
 ![Decider for A_DFA](/image/Decider%20for%20A_DFA.png)
 
-# Acceptance problem for Nondeterministic finite automata
+# $A_{NFA}$
 
 $$
 \text{Let the language } A_{NFA}=\lbrace \underset{\text{}}{\langle B, w \rangle}|\text{B is a Nondeterministic finite automaton that accepts w} \rbrace
@@ -58,11 +61,38 @@ D_{A_{NFA}}=&\text{On input string } s\\
 \end{align}
 $$
 
-# Acceptance problem for Turing machine
+# $A_{TM}$
 * Let $A_{TM}=\lbrace \langle M,w \rangle|M \text{ is a Turing Machine and } M \text{ accepts input string } w \rbrace$
 * Given a turing machine $M$, the turing machine accepts input string $w$.
 
 ## Theorem 1: $A_{TM}$ is not a decidable language.
+### Proof by contradiction
+1. Assume some turing machine $H$ decides $A_{TM}$
+    * $H$ on $\langle M,w \rangle$
+        * Accept if $M$ accepts $w$
+        * Reject if $M$ rejects $w$
+2. Construct a turing machine $D$ using $H$
+
+$$
+\begin{align}
+D=&\text{``On input } \langle M \rangle \\
+&\text{1. Simulate }H \text{ on input } \langle M, \langle M \rangle \rangle\\
+&\text{2. Accept if }H \text{ rejects}\\
+&\text{3. Reject if }H \text{ accepts}\\
+\end{align}
+$$
+
+3. Therefore,
+    * $D$ accepts $\langle M \rangle$ if and only if $M$ doesn't accept $\langle M \rangle$
+    * $D$ accepts $\langle D \rangle$ if and only if $D$ doesn't accept $\langle D \rangle$
+
+4. When we make a table out of it.
+
+![A_TM undecidibility](/image/ATM%20undecidibility.png)
+
+5. At the left bottom cell,
+* $D$ accepts $\langle D \rangle$ if and only if $D$ doesn't accept $\langle D \rangle$ does not make sense.
+* Therefore, it is a contradiction.
 
 
 ## Theorem 2: $A_{TM}$ is a Turing-recognizable language.
