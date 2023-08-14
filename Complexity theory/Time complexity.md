@@ -86,6 +86,7 @@ $$
 * Definition: Boolean formula $phi$ has
     * Boolean variables: True, False
     * Boolean operation: $\land$(and), $\lor$(or), $\neg$(not)
+    * Quantifier: $\forall$(for all), $\exists$(there exist)
 * Example: $\phi=(x\lor y)\land (\bar{x}\land \bar{y})$
 
 ## QBF satisfiable
