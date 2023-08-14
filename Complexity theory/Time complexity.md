@@ -66,7 +66,7 @@ $$
 
 * It is $O(n^{4})\in P$
 
-# Nondeterministic complexity
+# Nondeterministic time complexity
 * It is a variation of deterministic complexity.
 * Definition: In Nondeterministic turing machine decider, all branches halt on every input.
 * Formal definition: We say an NTM runs in time $t(n)$ when each branches halt within $t(n)$ steps on each input of length $n$.
