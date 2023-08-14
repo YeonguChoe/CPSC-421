@@ -87,7 +87,7 @@ $$
     * Boolean variables: True, False
     * Boolean operation: $\land$(and), $\lor$(or), $\neg$(not)
     * Quantifier: $\forall$(for all), $\exists$(there exist)
-* Example: $\phi=(x\lor y)\land (\bar{x}\land \bar{y})$
+* Example: $\phi=\forall x \exists y[(x\lor y)\land (\bar{x}\land \bar{y})]$: For every $x$, there exists a way to assign boolean variable for $y$ that to make the expression into true.
 
 ## QBF satisfiable
 * Definition: If $\phi$ is evaluated to True for some assignment to its variables, we say that the $\phi$ is satisfiable.
