@@ -1,1 +1,0 @@
-# Indirect proof by contradiction

@@ -1,2 +1,0 @@
-# Indirect proof by contrapositive
-
